@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using Microsoft.AspNetCore.SignalR;
+using ProjectAPI.Hubs;
 using System.Threading.Tasks;
 
 namespace ProjectAPI.Controllers
@@ -11,10 +9,18 @@ namespace ProjectAPI.Controllers
     [Route("[controller]")]
     public class SensorValueController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Get([FromQuery] int value)
+        private readonly IHubContext<ValueHub> _valueHub;
+
+        public SensorValueController(IHubContext<ValueHub> valueHub)
         {
-            return Ok(value);
+            _valueHub = valueHub;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Get([FromQuery] int value)
+        {
+            await _valueHub.Clients.All.SendAsync("ReceiveMessage", value);
+            return Ok();
         }
     }
 }

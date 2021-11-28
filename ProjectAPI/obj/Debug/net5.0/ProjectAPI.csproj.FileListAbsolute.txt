@@ -27,3 +27,5 @@ D:\GoogleDrive\Facultate\An4\Sem1\CN\project\ProjectAPI\ProjectAPI\obj\Debug\net
 D:\GoogleDrive\Facultate\An4\Sem1\CN\project\ProjectAPI\ProjectAPI\obj\Debug\net5.0\ref\ProjectAPI.dll
 D:\GoogleDrive\Facultate\An4\Sem1\CN\project\ProjectAPI\ProjectAPI\obj\Debug\net5.0\ProjectAPI.pdb
 D:\GoogleDrive\Facultate\An4\Sem1\CN\project\ProjectAPI\ProjectAPI\obj\Debug\net5.0\ProjectAPI.genruntimeconfig.cache
+D:\GoogleDrive\Facultate\An4\Sem1\CN\project\ProjectAPI\ProjectAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\GoogleDrive\Facultate\An4\Sem1\CN\project\ProjectAPI\ProjectAPI\bin\Debug\net5.0\System.Net.WebSockets.WebSocketProtocol.dll
