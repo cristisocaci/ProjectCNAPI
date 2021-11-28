@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "F/Vuz4LiD8GSX6/PLNw36yAXYN8z835fxIgNHlYcUY7Sb+uI/6PEXrOjSkbg+UDofaZG1hJNxY6NYeZ3h3cONA==",
+  "dgSpecHash": "zZGoWoSUvbmSbH8F4yl09NLBtb8iITtgMJ4k+DMt5+y1K/Sc3L69G5LmyljIMWzSstENxf2ecDmZY9oxb7Fs3w==",
   "success": true,
   "projectFilePath": "D:\\GoogleDrive\\Facultate\\An4\\Sem1\\CN\\project\\ProjectAPI\\ProjectAPI\\ProjectAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cristi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Cristi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Cristi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
     "C:\\Users\\Cristi\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\Cristi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\Cristi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
