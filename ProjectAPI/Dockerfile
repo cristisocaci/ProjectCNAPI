@@ -19,5 +19,5 @@ RUN dotnet publish "ProjectAPI.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-# ENTRYPOINT ["dotnet", "ProjectAPI.dll"]
-CMD ASPNETCORE_URLS=https://*:$PORT dotnet WebApi.dll
+ENTRYPOINT ["dotnet", "ProjectAPI.dll"]
+# CMD ASPNETCORE_URLS=https://*:$PORT dotnet WebApi.dll
