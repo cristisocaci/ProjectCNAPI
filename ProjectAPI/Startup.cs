@@ -43,7 +43,7 @@ namespace ProjectAPI
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ProjectAPI v1"));
 
-            app.UseCors(builder => { builder.WithOrigins("http://localhost:3000").AllowAnyMethod().AllowAnyHeader().AllowCredentials(); });
+            app.UseCors(builder => { builder.WithOrigins("http://localhost:3000", "https://project-cn.web.app", "https://project-cn.firebaseapp.com/").AllowAnyMethod().AllowAnyHeader().AllowCredentials(); });
             app.UseHttpsRedirection();
 
             app.UseRouting();
